@@ -21,19 +21,22 @@
     "id": 1,
     "regionId": 1,
     "name": "DC1",
-    "dctype": "GDC"
+    "dctype": "GDC",
+    "latLong": "44.968046/-94.420307"
   },
   {
     "id": 2,
     "regionId": 1,
     "name": "DC2",
-    "dctype": "GDC"
+    "dctype": "GDC",
+    "latLong": "44.33328/-89.132008"
   },
   {
     "id": 3,
     "regionId": 2,
     "name": "DC3",
-    "dctype": "GDC"
+    "dctype": "GDC",
+    "latLong": "33.755787/-116.359998"
   }
   ]
 }
