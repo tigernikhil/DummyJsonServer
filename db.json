@@ -2,15 +2,18 @@
   "region": [
     {
       "id": 1,
-      "name": "R1"
+      "name": "R1",
+      "dctype": "GDC"
     },
     {
       "id": 2,
-      "name": "R2"
+      "name": "R2",
+      "dctype": "GDC"
     },
     {
       "id": 3,
-      "name": "R3"
+      "name": "R3",
+      "dctype": "GDC"
     }
   ],
   "dcnumber": [
