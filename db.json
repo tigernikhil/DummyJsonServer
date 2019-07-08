@@ -27,14 +27,14 @@
   {
     "id": 2,
     "region": "West",
-    "name": "DC2",
+    "name": "7014 - Casagrande",
     "dctype": "GDC",
     "latLong": "44.33328/-89.132008"
   },
   {
     "id": 3,
     "region": "East",
-    "name": "DC3",
+    "name": "7015 - Casagrande",
     "dctype": "GDC",
     "latLong": "33.755787/-116.359998"
   }
@@ -165,7 +165,7 @@
     "Week": 11902,
     "Day": "Tuesday",
     "Region": "West",
-    "DC": "7013 - Casagrande",
+    "DC": "7015 - Casagrande",
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
@@ -177,7 +177,7 @@
     "Week": 11902,
     "Day": "Wednesday",
     "Region": "West",
-    "DC": "7013 - Casagrande",
+    "DC": "7014 - Casagrande",
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
@@ -189,7 +189,7 @@
     "Week": 11902,
     "Day": "Thursday",
     "Region": "West",
-    "DC": "7013 - Casagrande",
+    "DC": "7014 - Casagrande",
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
@@ -201,7 +201,7 @@
     "Week": 11902,
     "Day": "Friday",
     "Region": "West",
-    "DC": "7013 - Casagrande",
+    "DC": "7014 - Casagrande",
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
