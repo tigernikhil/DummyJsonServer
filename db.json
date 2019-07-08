@@ -49,8 +49,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 400,
-    "System Outbound Volume": 350
+    "SystemInboundVolume": 400,
+    "SystemOutboundVolume": 350
   },
   {
     "Date": "02/01/19",
@@ -61,8 +61,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 500,
-    "System Outbound Volume": 550
+    "SystemInboundVolume": 500,
+    "SystemOutboundVolume": 550
   },
   {
     "Date": "03/01/19",
@@ -73,8 +73,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 500,
-    "System Outbound Volume": 500
+    "SystemInboundVolume": 500,
+    "SystemOutboundVolume": 500
   },
   {
     "Date": "04/01/19",
@@ -85,8 +85,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 500,
-    "System Outbound Volume": 500
+    "SystemInboundVolume": 500,
+    "SystemOutboundVolume": 500
   },
   {
     "Date": "05/01/19",
@@ -97,8 +97,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 600,
-    "System Outbound Volume": 600
+    "SystemInboundVolume": 600,
+    "SystemOutboundVolume": 600
   },
   {
     "Date": "06/01/19",
@@ -109,8 +109,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 700,
-    "System Outbound Volume": 700
+    "SystemInboundVolume": 700,
+    "SystemOutboundVolume": 700
   },
   {
     "Date": "07/01/19",
@@ -121,8 +121,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 800,
-    "System Outbound Volume": 800
+    "SystemInboundVolume": 800,
+    "SystemOutboundVolume": 800
   },
   {
     "Date": "08/01/19",
@@ -133,8 +133,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 400,
-    "System Outbound Volume": 400
+    "SystemInboundVolume": 400,
+    "SystemOutboundVolume": 400
   },
   {
     "Date": "09/01/19",
@@ -145,8 +145,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 500,
-    "System Outbound Volume": 500
+    "SystemInboundVolume": 500,
+    "SystemOutboundVolume": 500
   },
   {
     "Date": "10/01/19",
@@ -157,8 +157,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 500,
-    "System Outbound Volume": 500
+    "SystemInboundVolume": 500,
+    "SystemOutboundVolume": 500
   },
   {
     "Date": "11/01/19",
@@ -169,8 +169,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 500,
-    "System Outbound Volume": 500
+    "SystemInboundVolume": 500,
+    "SystemOutboundVolume": 500
   },
   {
     "Date": "12/01/19",
@@ -181,8 +181,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 600,
-    "System Outbound Volume": 600
+    "SystemInboundVolume": 600,
+    "SystemOutboundVolume": 600
   },
   {
     "Date": "13/01/19",
@@ -193,8 +193,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 700,
-    "System Outbound Volume": 700
+    "SystemInboundVolume": 700,
+    "SystemOutboundVolume": 700
   },
   {
     "Date": "14/01/19",
@@ -205,8 +205,8 @@
     "Chamber": "Dry",
     "Department": "94 - Produce",
     "Category": "3764 - Bananas",
-    "System Inbound Volume": 800,
-    "System Outbound Volume": 800
+    "SystemInboundVolume": 800,
+    "SystemOutboundVolume": 800
   }
 ]
 }
