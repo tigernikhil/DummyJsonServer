@@ -2,41 +2,212 @@
   "region": [
     {
       "id": 1,
-      "name": "R1",
+      "name": "West",
       "dctype": "GDC"
     },
     {
       "id": 2,
-      "name": "R2",
+      "name": "East",
       "dctype": "GDC"
     },
     {
       "id": 3,
-      "name": "R3",
+      "name": "North",
       "dctype": "GDC"
     }
   ],
   "dcnumber": [
   {
     "id": 1,
-    "region": "R1",
-    "name": "DC1",
+    "region": "West",
+    "name": "7013 - Casagrande",
     "dctype": "GDC",
     "latLong": "44.968046/-94.420307"
   },
   {
     "id": 2,
-    "region": "R1",
+    "region": "West",
     "name": "DC2",
     "dctype": "GDC",
     "latLong": "44.33328/-89.132008"
   },
   {
     "id": 3,
-    "region": "R2",
+    "region": "East",
     "name": "DC3",
     "dctype": "GDC",
     "latLong": "33.755787/-116.359998"
   }
   ]
+  "systemFlow": 
+  [
+  {
+    "Date": "01/01/19",
+    "Week": 11901,
+    "Day": "Saturday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 400,
+    "System Outbound Volume": 350
+  },
+  {
+    "Date": "02/01/19",
+    "Week": 11901,
+    "Day": "Sunday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 500,
+    "System Outbound Volume": 550
+  },
+  {
+    "Date": "03/01/19",
+    "Week": 11901,
+    "Day": "Monday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 500,
+    "System Outbound Volume": 500
+  },
+  {
+    "Date": "04/01/19",
+    "Week": 11901,
+    "Day": "Tuesday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 500,
+    "System Outbound Volume": 500
+  },
+  {
+    "Date": "05/01/19",
+    "Week": 11901,
+    "Day": "Wednesday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 600,
+    "System Outbound Volume": 600
+  },
+  {
+    "Date": "06/01/19",
+    "Week": 11901,
+    "Day": "Thursday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 700,
+    "System Outbound Volume": 700
+  },
+  {
+    "Date": "07/01/19",
+    "Week": 11901,
+    "Day": "Friday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 800,
+    "System Outbound Volume": 800
+  },
+  {
+    "Date": "08/01/19",
+    "Week": 11902,
+    "Day": "Saturday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 400,
+    "System Outbound Volume": 400
+  },
+  {
+    "Date": "09/01/19",
+    "Week": 11902,
+    "Day": "Sunday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 500,
+    "System Outbound Volume": 500
+  },
+  {
+    "Date": "10/01/19",
+    "Week": 11902,
+    "Day": "Monday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 500,
+    "System Outbound Volume": 500
+  },
+  {
+    "Date": "11/01/19",
+    "Week": 11902,
+    "Day": "Tuesday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 500,
+    "System Outbound Volume": 500
+  },
+  {
+    "Date": "12/01/19",
+    "Week": 11902,
+    "Day": "Wednesday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 600,
+    "System Outbound Volume": 600
+  },
+  {
+    "Date": "13/01/19",
+    "Week": 11902,
+    "Day": "Thursday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 700,
+    "System Outbound Volume": 700
+  },
+  {
+    "Date": "14/01/19",
+    "Week": 11902,
+    "Day": "Friday",
+    "Region": "West",
+    "DC": "7013 - Casagrande",
+    "Chamber": "Dry",
+    "Department": "94 - Produce",
+    "Category": "3764 - Bananas",
+    "System Inbound Volume": 800,
+    "System Outbound Volume": 800
+  }
+]
 }
