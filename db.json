@@ -1,44 +1,6 @@
 {
-  "region": [
-    {
-      "id": 1,
-      "name": "West",
-      "dctype": "GDC"
-    },
-    {
-      "id": 2,
-      "name": "East",
-      "dctype": "GDC"
-    },
-    {
-      "id": 3,
-      "name": "North",
-      "dctype": "GDC"
-    }
-  ],
-  "dcnumber": [
-  {
-    "id": 1,
-    "region": "West",
-    "name": "7013 - Casagrande",
-    "dctype": "GDC",
-    "latLong": "44.968046/-94.420307"
-  },
-  {
-    "id": 2,
-    "region": "West",
-    "name": "7014 - Casagrande",
-    "dctype": "GDC",
-    "latLong": "44.33328/-89.132008"
-  },
-  {
-    "id": 3,
-    "region": "East",
-    "name": "7015 - Casagrande",
-    "dctype": "GDC",
-    "latLong": "33.755787/-116.359998"
-  }
-  ],
+  
+  
   "systemflow":[
   {
     "Date": "01/01/19",
