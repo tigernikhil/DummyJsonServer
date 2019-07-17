@@ -208,5 +208,87 @@
     "SystemInboundVolume": 800,
     "SystemOutboundVolume": 800
   }
-]
+],
+  "AdjustedFlow":{
+  "Region": "West",
+  "DC_Type": "GDC",
+  "DC_Id":7013,
+  "adjusted_system":[
+    {"Date": "01/01/19",
+     "adjusted_inbound":500,
+     "system_inbound":400,
+     "adjusted_outbound":300,
+     "system_outbound":300
+    },
+    {"Date": "01/01/19",
+     "adjusted_inbound":500,
+     "system_inbound":400,
+     "adjusted_outbound":300,
+     "system_outbound":300
+    }],
+   "adjusted_capacity":[
+      {"Date": "01/01/19",
+       "adjusted_inbound":500,
+       "capacity_inbound":400,
+       "adjusted_outbound":300,
+       "capacity_outbound":300
+      },
+      {"Date": "01/01/19",
+     "adjusted_inbound":500,
+     "capacity_inbound":400,
+     "adjusted_outbound":300,
+     "capacity_outbound":300
+      }]
+
+},
+"AdjustedTarget_date":[
+  {
+
+   "category_id": 12345
+   "category_name": "String",
+   "adjusted_inbound": 600,
+   "adjusted_outbound": 700
+
+ },
+ {
+
+   "category_id": 1234
+   "category_name": "String2",
+   "adjusted_inbound": 600,
+   "adjusted_outbound": 700
+
+ },
+ {
+
+   "category_id": 123456
+   "category_name": "String3",
+   "adjusted_inbound": 600,
+   "adjusted_outbound": 800
+
+ }
+],
+  "Adjusted_items":
+ {
+   "Region": "West",
+   "DC_Type": "GDC",
+   "DC_Id":7013,
+   "category_name": "String3",
+   "adjusted_items": [{
+     "item_id":234
+     "item_name":Banana
+     "adjusted_volume":800
+   },
+   {
+     "item_id":1
+     "item_name":Orange
+     "adjusted_volume":600
+   },
+   {
+     "item_id":2
+     "item_name":Apple
+     "adjusted_volume":500
+   }
+   ]
+
+ }
 }
