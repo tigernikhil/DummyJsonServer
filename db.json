@@ -305,6 +305,77 @@
 					"exp_cases": 10000
 				}
 			]
-		}
+		},
+		"breaches_data": [{
+				"dc_id": 1,
+				"dc_name": "PAULS VALLEY OK GROC DC",
+				"region": "center",
+				"dc_type": "gds",
+				"breach_type": "Adjusted",
+				"lat_long": "41.6942861/-110.9361310",
+				"date": "12/04/2019",
+				"wm_week": 11901,
+				"breach_inboud": 2500,
+				"breach_outbound": 2300,
+				"breach_level": 2,
+				"breach_warnings": 4
+			},
+			{
+				"dc_id": 2,
+				"dc_name": "TERRELL TX GROC DC",
+				"region": "center",
+				"dc_type": "gds",
+				"breach_type": "Adjusted",
+				"lat_long": "40.6942861/-115.9389312",
+				"date": "12/04/2019",
+				"wm_week": 11901,
+				"breach_inboud": 2500,
+				"breach_outbound": 2300,
+				"breach_level": 1,
+				"breach_warnings": 2
+			},
+			{
+				"dc_id": 3,
+				"dc_name": "OLNEY, IL GROC DC",
+				"region": "center",
+				"dc_type": "gds",
+				"breach_type": "Adjusted",
+				"lat_long": "42.6943261/-112.9372412",
+				"date": "12/04/2019",
+				"wm_week": 11901,
+				"breach_inboud": 2500,
+				"breach_outbound": 2300,
+				"breach_level": 1,
+				"breach_warnings": 1
+			},
+			{
+				"dc_id": 3,
+				"dc_name": "CLEBURNE, TX GROC DC",
+				"region": "center",
+				"dc_type": "gds",
+				"breach_type": "Adjusted",
+				"lat_long": "38.6942861/-108.9421312",
+				"date": "12/04/2019",
+				"wm_week": 11901,
+				"breach_inboud": 2500,
+				"breach_outbound": 2300,
+				"breach_level": 2,
+				"breach_warnings": 3
+			},
+			{
+				"dc_id": 5,
+				"dc_name": "CLEBURNE, TX GROC DC",
+				"region": "center",
+				"dc_type": "gds",
+				"breach_type": "Adjusted",
+				"lat_long": "39.6942861/-114.9389312",
+				"date": "12/04/2019",
+				"wm_week": 11901,
+				"breach_inboud": 2500,
+				"breach_outbound": 2300,
+				"breach_level": 3,
+				"breach_warnings": 5
+			}
+		]
 	}
 }
