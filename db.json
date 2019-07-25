@@ -180,7 +180,7 @@
 				"system_outbound": 300
 			},
 			{
-				"Date": "01/01/19",
+				"Date": "02/01/19",
 				"adjusted_inbound": 500,
 				"system_inbound": 400,
 				"adjusted_outbound": 300,
@@ -195,7 +195,7 @@
 				"capacity_outbound": 300
 			},
 			{
-				"Date": "01/01/19",
+				"Date": "02/01/19",
 				"adjusted_inbound": 500,
 				"capacity_inbound": 400,
 				"adjusted_outbound": 300,
