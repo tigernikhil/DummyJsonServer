@@ -376,6 +376,68 @@
 				"breach_level": 3,
 				"breach_warnings": 5
 			}
-		]
+		],
+		"breach_item_level": {
+			"dc_id": 1,
+			"dc_name": "TERRELL TX GROC DC",
+			"date": "19/04/2019",
+			"wm_week": 11901,
+			"chamber_id": 1,
+			"chamber_name": "DRY",
+			"category_id": 1,
+			"category_name": "C1",
+			"breach_type": "System",
+			"breaches_array": [{
+					"item_id": 1,
+					"item_name": "Banana",
+					"exp_cases": 250
+				},
+				{
+					"item_id": 2,
+					"item_name": "Milk",
+					"exp_cases": 650
+				},
+				{
+					"item_id": 3,
+					"item_name": "Snacks",
+					"exp_cases": 300
+				},
+				{
+					"item_id": 4,
+					"item_name": "Dry Fruits",
+					"exp_cases": 1000
+				},
+				{
+					"item_id": 5,
+					"item_name": "Dry Fruits",
+					"exp_cases": 550
+				},
+				{
+					"item_id": 6,
+					"item_name": "Item6",
+					"exp_cases": 2000
+				},
+				{
+					"item_id": 7,
+					"item_name": "Item7",
+					"exp_cases": 1400
+				},
+				{
+					"item_id": 8,
+					"item_name": "Item8",
+					"exp_cases": 1300
+				},
+				{
+					"item_id": 9,
+					"item_name": "Item9",
+					"exp_cases": 1500
+				},
+				{
+					"item_id": 10,
+					"item_name": "Item10",
+					"exp_cases": 3500
+				}
+			]
+		}
 	}
 }
