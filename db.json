@@ -245,6 +245,46 @@
 		]
 	},
 	"breach_table": {
+		"breach_chamber": [{
+				"targetDate": "Tue Jan 22 15:38:09 IST 2019",
+				"wmWeek": 1,
+				"dcId": 6055,
+				"dcName": "ABC",
+				"chamberName": "MP",
+				"capacityInbound": 1000.0,
+				"capacityOutbound": 2000.0,
+				"systemInbound": 134.0,
+				"systemOutbound": 487.0,
+				"breachSystemInbound": 455.0,
+				"breachSystemOutbound": 73.0
+			},
+			{
+				"targetDate": "Tue Jan 22 15:38:09 IST 2019",
+				"wmWeek": 1,
+				"dcId": 6055,
+				"dcName": "ABC",
+				"chamberName": "FDD",
+				"capacityInbound": 1000.0,
+				"capacityOutbound": 2000.0,
+				"systemInbound": 134.0,
+				"systemOutbound": 487.0,
+				"breachSystemInbound": 455.0,
+				"breachSystemOutbound": 73.0
+			},
+			{
+				"targetDate": "Tue Jan 22 15:38:09 IST 2019",
+				"wmWeek": 1,
+				"dcId": 6056,
+				"dcName": "ABC",
+				"chamberName": "DRY",
+				"capacityInbound": 1000.0,
+				"capacityOutbound": 2000.0,
+				"systemInbound": 134.0,
+				"systemOutbound": 487.0,
+				"breachSystemInbound": 455.0,
+				"breachSystemOutbound": 73.0
+			}
+		],
 		"dc_chamber": {
 			"dc_id": 1,
 			"dc_name": "7013 - Casagrande",
