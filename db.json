@@ -192,14 +192,14 @@
 				"adjusted_inbound": 500,
 				"capacity_inbound": 400,
 				"adjusted_outbound": 300,
-				"capacity_outbound": 300
+				"capacity_outbound": 200
 			},
 			{
 				"Date": "02/01/19",
 				"adjusted_inbound": 500,
 				"capacity_inbound": 400,
 				"adjusted_outbound": 300,
-				"capacity_outbound": 300
+				"capacity_outbound": 400
 			}
 		]
 	},
