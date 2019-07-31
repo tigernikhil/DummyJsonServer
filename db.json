@@ -203,52 +203,56 @@
 			}
 		]
 	},
-	"adjustedFlow_category":[
+	"adjustedFlowCategory":[
   {
 
-   "category_id": 12345,
-   "category_name": "String",
-   "adjusted_inbound": 600,
-   "adjusted_outbound": 700
+   "categoryId": 12345,
+   "categoryName": "String",
+   "adjustedInbound": 600,
+   "adjustedOutbound": 700
 
  },
  {
 
-   "category_id": 1234,
-   "category_name": "String2",
-   "adjusted_inbound": 600,
-   "adjusted_outbound": 700
+   "categoryId": 1234,
+   "categoryName": "String2",
+   "adjustedInbound": 600,
+   "adjustedOutbound": 700
 
  },
  {
 
-   "category_id": 123456,
-   "category_name": "String3",
-   "adjusted_inbound": 600,
-   "adjusted_outbound": 800
+   "categoryId": 123456,
+   "categoryName": "String3",
+   "adjustedInbound": 600,
+   "adjustedOutbound": 800
 
  }
 ],
-"adjustedFlow_items":
+"adjustedFlowItems":
  {
-   "Region": "West",
-   "DC_Type": "GDC",
-   "DC_Id":7013,
-   "category_name": "String3",
-   "adjusted_items": [{
-     "item_id":234,
-     "item_name":"Banana",
-     "adjusted_volume":800
+   "region": "West",
+   "dcId":7013,
+   "adjustedItems": [{
+     "dcType": "GDC",
+     "categoryName": "String3",
+     "itemId":234,
+     "itemName":"Banana",
+     "adjustedVolume":800
    },
    {
-     "item_id":1,
-     "item_name":"Orange",
-     "adjusted_volume":600
+     "dcType": "GDC",
+     "categoryName": "String3",
+     "itemId":1,
+     "itemName":"Orange",
+     "adjustedVolume":600
    },
    {
-     "item_id":2,
-     "item_name":"Apple",
-     "adjusted_volume":500
+     "dcType": "GDC",
+     "categoryName": "String3",
+     "itemId":2,
+     "itemName":"Apple",
+     "adjustedVolume":500
    }
    ]
  },
