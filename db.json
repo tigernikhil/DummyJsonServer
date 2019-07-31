@@ -236,18 +236,18 @@
    "DC_Id":7013,
    "category_name": "String3",
    "adjusted_items": [{
-     "item_id":234
-     "item_name":Banana
+     "item_id":234,
+     "item_name":"Banana",
      "adjusted_volume":800
    },
    {
-     "item_id":1
-     "item_name":Orange
+     "item_id":1,
+     "item_name":"Orange",
      "adjusted_volume":600
    },
    {
-     "item_id":2
-     "item_name":Apple
+     "item_id":2,
+     "item_name":"Apple"
      "adjusted_volume":500
    }
    ]
