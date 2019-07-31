@@ -206,7 +206,7 @@
 	"adjustedFlow_category":[
   {
 
-   "category_id": 12345
+   "category_id": 12345,
    "category_name": "String",
    "adjusted_inbound": 600,
    "adjusted_outbound": 700
@@ -214,7 +214,7 @@
  },
  {
 
-   "category_id": 1234
+   "category_id": 1234,
    "category_name": "String2",
    "adjusted_inbound": 600,
    "adjusted_outbound": 700
@@ -222,13 +222,13 @@
  },
  {
 
-   "category_id": 123456
+   "category_id": 123456,
    "category_name": "String3",
    "adjusted_inbound": 600,
    "adjusted_outbound": 800
 
  }
-]
+],
 "adjustedFlow_items":
  {
    "Region": "West",
