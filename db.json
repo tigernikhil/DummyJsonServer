@@ -180,9 +180,9 @@
      "systemOutbound":200
     },
     {"Date": "02/01/19",
-     "adjusted_inbound":500,
-     "system_inbound":400,
-     "adjusted_outbound":300,
+     "adjustedInbound":500,
+     "systemInbound":400,
+     "adjustedOutbound":300,
      "systemOutbound":400
     }],
    "adjustedCapacity":[
