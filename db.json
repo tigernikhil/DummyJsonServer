@@ -209,7 +209,7 @@
 
    "categoryId": 1234,
    "categoryName": "String2",
-   "adjustedInbound": 600,
+   "adjustedInbound": 900,
    "adjustedOutbound": 700
 
  },
@@ -217,7 +217,7 @@
 
    "categoryId": 123456,
    "categoryName": "String3",
-   "adjustedInbound": 600,
+   "adjustedInbound": 500,
    "adjustedOutbound": 800
 
  },
@@ -225,7 +225,7 @@
 
    "categoryId": 123454,
    "categoryName": "String4",
-   "adjustedInbound": 600,
+   "adjustedInbound": 200,
    "adjustedOutbound": 800
 
  },
