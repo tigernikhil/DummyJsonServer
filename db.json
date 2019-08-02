@@ -174,37 +174,8 @@
      "systemInbound":400,
      "adjustedOutbound":300,
      "systemOutbound":200
-    },
-    {"date": "06/01/19",
-     "adjustedInbound":500,
-     "systemInbound":400,
-     "adjustedOutbound":300,
-     "systemOutbound":400
-    },
-    {"date": "07/01/19",
-     "adjustedInbound":600,
-     "systemInbound":700,
-     "adjustedOutbound":800,
-     "systemOutbound":900
-    },
-    {"date": "08/01/19",
-     "adjustedInbound":500,
-     "systemInbound":400,
-     "adjustedOutbound":300,
-     "systemOutbound":400
-    },
-      {"date": "09/01/19",
-     "adjustedInbound":500,
-     "systemInbound":400,
-     "adjustedOutbound":300,
-     "systemOutbound":200
-    },
-    {"date": "10/01/19",
-     "adjustedInbound":500,
-     "systemInbound":400,
-     "adjustedOutbound":300,
-     "systemOutbound":400
     }
+    
  ],
    "adjustedCapacity":[
       {"date": "01/01/19",
@@ -238,42 +209,10 @@
        "capacityInbound":400,
        "adjustedOutbound":300,
        "capacityOutbound":200
-      },
-      {"date": "06/01/19",
-     "adjustedInbound":500,
-     "capacityInbound":400,
-     "adjustedOutbound":300,
-     "capacityOutbound":400
-      }
-   ,
-      {"date": "07/01/19",
-     "adjustedInbound":700,
-     "capacityInbound":600,
-     "adjustedOutbound":500,
-     "capacityOutbound":600
-      }
-   ,
-      {"date": "08/01/19",
-     "adjustedInbound":900,
-     "capacityInbound":800,
-     "adjustedOutbound":300,
-     "capacityOutbound":400
-      },
-    {"date": "09/01/19",
-       "adjustedInbound":500,
-       "capacityInbound":400,
-       "adjustedOutbound":300,
-       "capacityOutbound":200
-      },
-      {"date": "10/01/19",
-     "adjustedInbound":500,
-     "capacityInbound":400,
-     "adjustedOutbound":300,
-     "capacityOutbound":400
       }
 ]
 },
-	"adjustedFlowCategory":[
+"adjustedFlowCategory":[
   {
 
    "categoryId": 12345,
