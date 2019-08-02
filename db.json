@@ -1,115 +1,116 @@
 {
 
   "smoothenedView": {
-    "smoothenedDetails": {
-      "region": "West",
-      "dcType": "GDC",
-      "dcId": 7013,
-      "dept": 12,
-      "chamber": 43,
-      "category": 43,
-      "categorySmoothened": [
-        {
-          "date": "01/01/19",
-          "catSmoothenedInbound": 500,
-          "catSmoothenedOutbound": 200
-        },
-        {
-          "date": "02/01/19",
-          "catSmoothenedInbound": 400,
-          "catSmoothenedOutbound": 900
-        },
-        {
-          "date": "03/01/19",
-          "catSmoothenedInbound": 700,
-          "catSmoothenedOutbound": 200
-        },
-        {
-          "date": "04/01/19",
-          "catSmoothenedInbound": 900,
-          "catSmoothenedOutbound": 300
-        }
-      ],
-      "chamberSmoothened": [
-        {
-          "date": "01/01/19",
-          "chamberSmoothenedInbound": 500,
-          "chamberSmoothenedOutbound": 400,
-          "chamberCapacityInbound": 300,
-          "chamberCapacityOutbound": 200
-        },
-        {
-          "date": "02/01/19",
-          "chamberSmoothenedInbound": 500,
-          "chamberSmoothenedOutbound": 400,
-          "chamberCapacityInbound": 300,
-          "chamberCapacityOutbound": 200
-        },
-        {
-          "date": "03/01/19",
-          "chamberSmoothenedInbound": 500,
-          "chamberSmoothenedOutbound": 400,
-          "chamberCapacityInbound": 300,
-          "chamberCapacityOutbound": 200
-        },
-        {
-          "date": "04/01/19",
-          "chamberSmoothenedInbound": 500,
-          "chamberSmoothenedOutbound": 400,
-          "chamberCapacityInbound": 300,
-          "chamberCapacityOutbound": 200
-        }
-      ]
-    },
-    "smoothenedCategory": {
-      "categorywiseSystemSmoothenedContribution": [
-        {
-          "categoryId": 12345,
-          "categoryName": "String",
-          "systemInbound": 800,
-          "smoothenedInbound": 900,
-          "systemOutbound": 600,
-          "smoothenedOutbound": 700
-        },
-        {
-          "categoryId": 1234,
-          "categoryName": "String2",
-          "adjustedInbound": 600,
-          "adjustedOutbound": 700
-        },
-        {
-          "categoryId": 123456,
-          "categoryName": "String3",
-          "adjustedInbound": 600,
-          "adjustedOutbound": 800
-        }
-      ],
-      "categorywiseAdjustedSmoothenedContribution": [
-        {
-          "categoryId": 1234,
-          "categoryName": "String1",
-          "adjustedInbound": 800,
-          "smoothenedInbound": 900,
-          "adjustedOutbound": 600,
-          "smoothenedOutbound": 700
-        },
-        {
-          "categoryId": 1235,
-          "categoryName": "String2",
-          "adjustedInbound": 800,
-          "smoothenedInbound": 900,
-          "adjustedOutbound": 600,
-          "smoothenedOutbound": 700
-        },
-        {
-          "categoryId": 1236,
-          "categoryName": "String3",
-          "adjustedInbound": 800,
-          "smoothenedInbound": 900,
-          "adjustedOutbound": 600,
-          "smoothenedOutbound": 700
-        }
-      ]
+  "smoothenedDetails": {
+    "region": "West",
+    "dcType": "GDC",
+    "dcId": 7013,
+    "dept": 12,
+    "chamber": 43,
+    "category": 43,
+    "categorySmoothened": [
+      {
+        "date": "01/01/19",
+        "catSmoothenedInbound": 500,
+        "catSmoothenedOutbound": 200
+      },
+      {
+        "date": "02/01/19",
+        "catSmoothenedInbound": 400,
+        "catSmoothenedOutbound": 900
+      },
+      {
+        "date": "03/01/19",
+        "catSmoothenedInbound": 700,
+        "catSmoothenedOutbound": 200
+      },
+      {
+        "date": "04/01/19",
+        "catSmoothenedInbound": 900,
+        "catSmoothenedOutbound": 300
+      }
+    ],
+    "chamberSmoothened": [
+      {
+        "date": "01/01/19",
+        "chamberSmoothenedInbound": 500,
+        "chamberSmoothenedOutbound": 400,
+        "chamberCapacityInbound": 300,
+        "chamberCapacityOutbound": 200
+      },
+      {
+        "date": "02/01/19",
+        "chamberSmoothenedInbound": 500,
+        "chamberSmoothenedOutbound": 400,
+        "chamberCapacityInbound": 300,
+        "chamberCapacityOutbound": 200
+      },
+      {
+        "date": "03/01/19",
+        "chamberSmoothenedInbound": 500,
+        "chamberSmoothenedOutbound": 400,
+        "chamberCapacityInbound": 300,
+        "chamberCapacityOutbound": 200
+      },
+      {
+        "date": "04/01/19",
+        "chamberSmoothenedInbound": 500,
+        "chamberSmoothenedOutbound": 400,
+        "chamberCapacityInbound": 300,
+        "chamberCapacityOutbound": 200
+      }
+    ]
+  },
+  "smoothenedCategory": {
+    "categorywiseSystemSmoothenedContribution": [
+      {
+        "categoryId": 12345,
+        "categoryName": "String",
+        "systemInbound": 800,
+        "smoothenedInbound": 900,
+        "systemOutbound": 600,
+        "smoothenedOutbound": 700
+      },
+      {
+        "categoryId": 1234,
+        "categoryName": "String2",
+        "adjustedInbound": 600,
+        "adjustedOutbound": 700
+      },
+      {
+        "categoryId": 123456,
+        "categoryName": "String3",
+        "adjustedInbound": 600,
+        "adjustedOutbound": 800
+      }
+    ],
+    "categorywiseAdjustedSmoothenedContribution": [
+      {
+        "categoryId": 1234,
+        "categoryName": "String1",
+        "adjustedInbound": 800,
+        "smoothenedInbound": 900,
+        "adjustedOutbound": 600,
+        "smoothenedOutbound": 700
+      },
+      {
+        "categoryId": 1235,
+        "categoryName": "String2",
+        "adjustedInbound": 800,
+        "smoothenedInbound": 900,
+        "adjustedOutbound": 600,
+        "smoothenedOutbound": 700
+      },
+      {
+        "categoryId": 1236,
+        "categoryName": "String3",
+        "adjustedInbound": 800,
+        "smoothenedInbound": 900,
+        "adjustedOutbound": 600,
+        "smoothenedOutbound": 700
+      }
+    ]
+  }
     },
 
 "adjustedFlow":{
