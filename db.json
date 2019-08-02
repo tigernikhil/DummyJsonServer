@@ -111,34 +111,6 @@
         }
       ]
     },
-    "smoothenedItems": {
-      "region": "West",
-      "dcId": 7013,
-      "adjustedItems": [
-        {
-          "dcType": "GDC",
-          "categoryName": "String3",
-          "itemId": 234,
-          "itemName": "Banana",
-          "adjustedVolume": 800
-        },
-        {
-          "dcType": "GDC",
-          "categoryName": "String3",
-          "itemId": 1,
-          "itemName": "Orange",
-          "adjustedVolume": 600
-        },
-        {
-          "dcType": "GDC",
-          "categoryName": "String3",
-          "itemId": 2,
-          "itemName": "Apple",
-          "adjustedVolume": 500
-        }
-      ]
-    }
-  },
 
 "adjustedFlow":{
   "region": "West",
