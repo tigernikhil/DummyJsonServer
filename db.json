@@ -220,6 +220,22 @@
    "adjustedInbound": 600,
    "adjustedOutbound": 800
 
+ },
+{
+
+   "categoryId": 123454,
+   "categoryName": "String4",
+   "adjustedInbound": 600,
+   "adjustedOutbound": 800
+
+ },
+		{
+
+   "categoryId": 123458,
+   "categoryName": "String6",
+   "adjustedInbound": 600,
+   "adjustedOutbound": 200
+
  }
 ],
 "adjustedFlowItems":
