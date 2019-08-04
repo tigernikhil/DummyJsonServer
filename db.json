@@ -250,33 +250,44 @@
     ]
   },
   "breach_table": {
-    "dc_chamber": {
-      "dc_id": 1,
-      "dc_name": "7013 - Casagrande",
-      "date": "01/01/19",
-      "wm_week": 11901,
-      "breach_type": "System",
-      "breaches_array": [
-        {
-          "chamber_id": 1,
-          "chamber_name": "Dry",
-          "exp_cases": 153700,
-          "capacity": 150000
-        },
-        {
-          "chamber_id": 2,
-          "chamber_name": "FDD",
-          "exp_cases": 154000,
-          "capacity": 150000
-        },
-        {
-          "chamber_id": 3,
-          "chamber_name": "MP",
-          "exp_cases": 212500,
-          "capacity": 211500
-        }
-      ]
-    },
+    "dc_chamber": [
+      {
+        "dcId": 1,
+        "dcName": "7013 - Casagrande",
+        "date": "01/01/19",
+        "weekNum": 11901,
+        "breach_type": "System",
+        "chamber_id": 1,
+        "chamberName": "Dry",
+        "expectedCases": 153700,
+        "capacity": 150000,
+        "breach": -866
+      },
+      {
+        "dcId": 1,
+        "dcName": "7013 - Casagrande",
+        "date": "01/01/19",
+        "weekNum": 11901,
+        "breach_type": "System",
+        "chamber_id": 2,
+        "chamberName": "FDD",
+        "expectedCases": 154000,
+        "capacity": 150000,
+        "breach": -866
+      },
+      {
+        "dcId": 1,
+        "dcName": "7013 - Casagrande",
+        "date": "01/01/19",
+        "weekNum": 11901,
+        "breach_type": "System",
+        "chamber_id": 3,
+        "chamberName": "MP",
+        "expectedCases": 212500,
+        "capacity": 211500,
+        "breach": -866
+      }
+    ],
     "chamber_cat": {
       "dc_id": 1,
       "dc_name": "7013 - Casagrande",
