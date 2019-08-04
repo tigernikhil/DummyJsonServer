@@ -1,453 +1,347 @@
 {
-
   "smoothenedView": {
-  "smoothenedDetails": {
+    "smoothenedDetails": {
+      "region": "West",
+      "dcType": "GDC",
+      "dcId": 7013,
+      "dept": 12,
+      "chamber": 43,
+      "category": 43,
+      "categorySmoothened": [
+        {
+          "date": "01/01/19",
+          "catSmoothenedInbound": 500,
+          "catSmoothenedOutbound": 200
+        },
+        {
+          "date": "02/01/19",
+          "catSmoothenedInbound": 400,
+          "catSmoothenedOutbound": 900
+        },
+        {
+          "date": "03/01/19",
+          "catSmoothenedInbound": 700,
+          "catSmoothenedOutbound": 200
+        },
+        {
+          "date": "04/01/19",
+          "catSmoothenedInbound": 900,
+          "catSmoothenedOutbound": 300
+        }
+      ],
+      "chamberSmoothened": [
+        {
+          "date": "01/01/19",
+          "chamberSmoothenedInbound": 500,
+          "chamberSmoothenedOutbound": 400,
+          "chamberCapacityInbound": 300,
+          "chamberCapacityOutbound": 200
+        },
+        {
+          "date": "02/01/19",
+          "chamberSmoothenedInbound": 500,
+          "chamberSmoothenedOutbound": 400,
+          "chamberCapacityInbound": 300,
+          "chamberCapacityOutbound": 200
+        },
+        {
+          "date": "03/01/19",
+          "chamberSmoothenedInbound": 500,
+          "chamberSmoothenedOutbound": 400,
+          "chamberCapacityInbound": 300,
+          "chamberCapacityOutbound": 200
+        },
+        {
+          "date": "04/01/19",
+          "chamberSmoothenedInbound": 500,
+          "chamberSmoothenedOutbound": 400,
+          "chamberCapacityInbound": 300,
+          "chamberCapacityOutbound": 200
+        }
+      ]
+    },
+    "smoothenedCategory": {
+      "categorywiseSystemSmoothenedContribution": [
+        {
+          "categoryId": 12345,
+          "categoryName": "String",
+          "systemInbound": 800,
+          "smoothenedInbound": 900,
+          "systemOutbound": 600,
+          "smoothenedOutbound": 700
+        },
+        {
+          "categoryId": 1234,
+          "categoryName": "String2",
+          "adjustedInbound": 600,
+          "adjustedOutbound": 700
+        },
+        {
+          "categoryId": 123456,
+          "categoryName": "String3",
+          "adjustedInbound": 600,
+          "adjustedOutbound": 800
+        }
+      ],
+      "categorywiseAdjustedSmoothenedContribution": [
+        {
+          "categoryId": 1234,
+          "categoryName": "String1",
+          "adjustedInbound": 800,
+          "smoothenedInbound": 900,
+          "adjustedOutbound": 600,
+          "smoothenedOutbound": 700
+        },
+        {
+          "categoryId": 1235,
+          "categoryName": "String2",
+          "adjustedInbound": 800,
+          "smoothenedInbound": 900,
+          "adjustedOutbound": 600,
+          "smoothenedOutbound": 700
+        },
+        {
+          "categoryId": 1236,
+          "categoryName": "String3",
+          "adjustedInbound": 800,
+          "smoothenedInbound": 900,
+          "adjustedOutbound": 600,
+          "smoothenedOutbound": 700
+        }
+      ]
+    }
+  },
+  "adjustedFlow": {
     "region": "West",
     "dcType": "GDC",
     "dcId": 7013,
-    "dept": 12,
-    "chamber": 43,
-    "category": 43,
-    "categorySmoothened": [
+    "adjustedSystem": [
       {
         "date": "01/01/19",
-        "catSmoothenedInbound": 500,
-        "catSmoothenedOutbound": 200
+        "adjustedInbound": 500,
+        "systemInbound": 400,
+        "adjustedOutbound": 300,
+        "systemOutbound": 200
       },
       {
         "date": "02/01/19",
-        "catSmoothenedInbound": 400,
-        "catSmoothenedOutbound": 900
+        "adjustedInbound": 500,
+        "systemInbound": 400,
+        "adjustedOutbound": 300,
+        "systemOutbound": 400
       },
       {
         "date": "03/01/19",
-        "catSmoothenedInbound": 700,
-        "catSmoothenedOutbound": 200
+        "adjustedInbound": 600,
+        "systemInbound": 700,
+        "adjustedOutbound": 800,
+        "systemOutbound": 900
       },
       {
         "date": "04/01/19",
-        "catSmoothenedInbound": 900,
-        "catSmoothenedOutbound": 300
+        "adjustedInbound": 500,
+        "systemInbound": 400,
+        "adjustedOutbound": 300,
+        "systemOutbound": 400
+      },
+      {
+        "date": "05/01/19",
+        "adjustedInbound": 500,
+        "systemInbound": 400,
+        "adjustedOutbound": 300,
+        "systemOutbound": 200
       }
     ],
-    "chamberSmoothened": [
+    "adjustedCapacity": [
       {
         "date": "01/01/19",
-        "chamberSmoothenedInbound": 500,
-        "chamberSmoothenedOutbound": 400,
-        "chamberCapacityInbound": 300,
-        "chamberCapacityOutbound": 200
+        "adjustedInbound": 500,
+        "capacityInbound": 400,
+        "adjustedOutbound": 300,
+        "capacityOutbound": 200
       },
       {
         "date": "02/01/19",
-        "chamberSmoothenedInbound": 500,
-        "chamberSmoothenedOutbound": 400,
-        "chamberCapacityInbound": 300,
-        "chamberCapacityOutbound": 200
+        "adjustedInbound": 500,
+        "capacityInbound": 400,
+        "adjustedOutbound": 300,
+        "capacityOutbound": 400
       },
       {
         "date": "03/01/19",
-        "chamberSmoothenedInbound": 500,
-        "chamberSmoothenedOutbound": 400,
-        "chamberCapacityInbound": 300,
-        "chamberCapacityOutbound": 200
+        "adjustedInbound": 700,
+        "capacityInbound": 600,
+        "adjustedOutbound": 500,
+        "capacityOutbound": 600
       },
       {
         "date": "04/01/19",
-        "chamberSmoothenedInbound": 500,
-        "chamberSmoothenedOutbound": 400,
-        "chamberCapacityInbound": 300,
-        "chamberCapacityOutbound": 200
+        "adjustedInbound": 900,
+        "capacityInbound": 800,
+        "adjustedOutbound": 300,
+        "capacityOutbound": 400
+      },
+      {
+        "date": "05/01/19",
+        "adjustedInbound": 500,
+        "capacityInbound": 400,
+        "adjustedOutbound": 300,
+        "capacityOutbound": 200
       }
     ]
   },
-  "smoothenedCategory": {
-    "categorywiseSystemSmoothenedContribution": [
+  "adjustedFlowCategory": [
+    {
+      "categoryId": 12345,
+      "categoryName": "String",
+      "adjustedInbound": 600,
+      "adjustedOutbound": 700
+    },
+    {
+      "categoryId": 1234,
+      "categoryName": "String2",
+      "adjustedInbound": 900,
+      "adjustedOutbound": 700
+    },
+    {
+      "categoryId": 123456,
+      "categoryName": "String3",
+      "adjustedInbound": 500,
+      "adjustedOutbound": 800
+    },
+    {
+      "categoryId": 123454,
+      "categoryName": "String4",
+      "adjustedInbound": 200,
+      "adjustedOutbound": 800
+    },
+    {
+      "categoryId": 123458,
+      "categoryName": "String6",
+      "adjustedInbound": 600,
+      "adjustedOutbound": 200
+    }
+  ],
+  "adjustedFlowItems": {
+    "region": "West",
+    "dcId": 7013,
+    "adjustedItems": [
       {
-        "categoryId": 12345,
-        "categoryName": "String",
-        "systemInbound": 800,
-        "smoothenedInbound": 900,
-        "systemOutbound": 600,
-        "smoothenedOutbound": 700
-      },
-      {
-        "categoryId": 1234,
-        "categoryName": "String2",
-        "adjustedInbound": 600,
-        "adjustedOutbound": 700
-      },
-      {
-        "categoryId": 123456,
+        "dcType": "GDC",
         "categoryName": "String3",
-        "adjustedInbound": 600,
-        "adjustedOutbound": 800
+        "itemId": 234,
+        "itemName": "Banana",
+        "adjustedVolume": 800
+      },
+      {
+        "dcType": "GDC",
+        "categoryName": "String3",
+        "itemId": 1,
+        "itemName": "Orange",
+        "adjustedVolume": 600
+      },
+      {
+        "dcType": "GDC",
+        "categoryName": "String3",
+        "itemId": 2,
+        "itemName": "Apple",
+        "adjustedVolume": 500
       }
-    ],
-    "categorywiseAdjustedSmoothenedContribution": [
+    ]
+  },
+  "breach_table": {
+    "dc_chamber": {
+      "dc_id": 1,
+      "dc_name": "7013 - Casagrande",
+      "date": "01/01/19",
+      "wm_week": 11901,
+      "breach_type": "System",
+      "breaches_array": [
+        {
+          "chamber_id": 1,
+          "chamber_name": "Dry",
+          "exp_cases": 153700,
+          "capacity": 150000
+        },
+        {
+          "chamber_id": 2,
+          "chamber_name": "FDD",
+          "exp_cases": 154000,
+          "capacity": 150000
+        },
+        {
+          "chamber_id": 3,
+          "chamber_name": "MP",
+          "exp_cases": 212500,
+          "capacity": 211500
+        }
+      ]
+    },
+    "chamber_cat": {
+      "dc_id": 1,
+      "dc_name": "7013 - Casagrande",
+      "date": "01/01/19",
+      "wm_week": 19901,
+      "chamber_id": 1,
+      "chamber_name": "FDD",
+      "breach_type": "System",
+      "breaches_array": [
+        {
+          "category_id": 1,
+          "category_name": "C1",
+          "exp_cases": 30000
+        },
+        {
+          "category_id": 2,
+          "category_name": "C2",
+          "exp_cases": 20000
+        },
+        {
+          "category_id": 3,
+          "category_name": "C3",
+          "exp_cases": 20000
+        },
+        {
+          "category_id": 4,
+          "category_name": "C4",
+          "exp_cases": 12960
+        },
+        {
+          "category_id": 5,
+          "category_name": "C5",
+          "exp_cases": 10000
+        }
+      ]
+    },
+    "adjusted_items": [
       {
-        "categoryId": 1234,
-        "categoryName": "String1",
-        "adjustedInbound": 800,
-        "smoothenedInbound": 900,
-        "adjustedOutbound": 600,
-        "smoothenedOutbound": 700
+        "date": "10/09/2019",
+        "wm_week": 19901,
+        "day": "Saturday",
+        "region": "Center",
+        "dc_name": "PAULS VALLEY OK GROC DC",
+        "chamber_name": "FDD",
+        "department": "94-Produce",
+        "category": "3764-Bananas",
+        "systemInbound": 650,
+        "systemOutbound": 450,
+        "adjustedInbound": 200,
+        "adjustedOutbound": 500
       },
       {
-        "categoryId": 1235,
-        "categoryName": "String2",
-        "adjustedInbound": 800,
-        "smoothenedInbound": 900,
-        "adjustedOutbound": 600,
-        "smoothenedOutbound": 700
-      },
-      {
-        "categoryId": 1236,
-        "categoryName": "String3",
-        "adjustedInbound": 800,
-        "smoothenedInbound": 900,
-        "adjustedOutbound": 600,
-        "smoothenedOutbound": 700
+        "date": "10/09/2019",
+        "wm_week": 19901,
+        "day": "Saturday",
+        "region": "Center",
+        "dc_name": "PAULS VALLEY OK GROC DC",
+        "chamber_name": "FDD",
+        "department": "94-Produce",
+        "category": "3764-Bananas",
+        "systemInbound": 350,
+        "systemOutbound": 250,
+        "adjustedInbound": null,
+        "adjustedOutbound": null
       }
     ]
   }
-    },
-
-"adjustedFlow":{
-  "region": "West",
-  "dcType": "GDC",
-  "dcId":7013,
-  "adjustedSystem":[
-    {"date": "01/01/19",
-     "adjustedInbound":500,
-     "systemInbound":400,
-     "adjustedOutbound":300,
-     "systemOutbound":200
-    },
-    {"date": "02/01/19",
-     "adjustedInbound":500,
-     "systemInbound":400,
-     "adjustedOutbound":300,
-     "systemOutbound":400
-    },
-    {"date": "03/01/19",
-     "adjustedInbound":600,
-     "systemInbound":700,
-     "adjustedOutbound":800,
-     "systemOutbound":900
-    },
-    {"date": "04/01/19",
-     "adjustedInbound":500,
-     "systemInbound":400,
-     "adjustedOutbound":300,
-     "systemOutbound":400
-    },
-      {"date": "05/01/19",
-     "adjustedInbound":500,
-     "systemInbound":400,
-     "adjustedOutbound":300,
-     "systemOutbound":200
-    }
-    
- ],
-   "adjustedCapacity":[
-      {"date": "01/01/19",
-       "adjustedInbound":500,
-       "capacityInbound":400,
-       "adjustedOutbound":300,
-       "capacityOutbound":200
-      },
-      {"date": "02/01/19",
-     "adjustedInbound":500,
-     "capacityInbound":400,
-     "adjustedOutbound":300,
-     "capacityOutbound":400
-      }
-   ,
-      {"date": "03/01/19",
-     "adjustedInbound":700,
-     "capacityInbound":600,
-     "adjustedOutbound":500,
-     "capacityOutbound":600
-      }
-   ,
-      {"date": "04/01/19",
-     "adjustedInbound":900,
-     "capacityInbound":800,
-     "adjustedOutbound":300,
-     "capacityOutbound":400
-      },
-    {"date": "05/01/19",
-       "adjustedInbound":500,
-       "capacityInbound":400,
-       "adjustedOutbound":300,
-       "capacityOutbound":200
-      }
-]
-},
-"adjustedFlowCategory":[
-  {
-
-   "categoryId": 12345,
-   "categoryName": "String",
-   "adjustedInbound": 600,
-   "adjustedOutbound": 700
-
- },
- {
-
-   "categoryId": 1234,
-   "categoryName": "String2",
-   "adjustedInbound": 900,
-   "adjustedOutbound": 700
-
- },
- {
-
-   "categoryId": 123456,
-   "categoryName": "String3",
-   "adjustedInbound": 500,
-   "adjustedOutbound": 800
-
- },
-{
-
-   "categoryId": 123454,
-   "categoryName": "String4",
-   "adjustedInbound": 200,
-   "adjustedOutbound": 800
-
- },
-		{
-
-   "categoryId": 123458,
-   "categoryName": "String6",
-   "adjustedInbound": 600,
-   "adjustedOutbound": 200
-
- }
-],
-"adjustedFlowItems":
- {
-   "region": "West",
-   "dcId":7013,
-   "adjustedItems": [{
-     "dcType": "GDC",
-     "categoryName": "String3",
-     "itemId":234,
-     "itemName":"Banana",
-     "adjustedVolume":800
-   },
-   {
-     "dcType": "GDC",
-     "categoryName": "String3",
-     "itemId":1,
-     "itemName":"Orange",
-     "adjustedVolume":600
-   },
-   {
-     "dcType": "GDC",
-     "categoryName": "String3",
-     "itemId":2,
-     "itemName":"Apple",
-     "adjustedVolume":500
-   }
-   ]
- },
-	"breach_table": {
-		"dc_chamber": {
-			"dc_id": 1,
-			"dc_name": "7013 - Casagrande",
-			"date": "01/01/19",
-			"wm_week": 11901,
-			"breach_type": "System",
-			"breaches_array": [{
-					"chamber_id": 1,
-					"chamber_name": "Dry",
-					"exp_cases": 153700,
-					"capacity": 150000
-				},
-				{
-					"chamber_id": 2,
-					"chamber_name": "FDD",
-					"exp_cases": 154000,
-					"capacity": 150000
-				},
-				{
-					"chamber_id": 3,
-					"chamber_name": "MP",
-					"exp_cases": 212500,
-					"capacity": 211500
-				}
-			]
-		},
-		"chamber_cat": {
-			"dc_id": 1,
-			"dc_name": "7013 - Casagrande",
-			"date": "01/01/19",
-			"wm_week": 19901,
-			"chamber_id": 1,
-			"chamber_name": "FDD",
-			"breach_type": "System",
-			"breaches_array": [{
-					"category_id": 1,
-					"category_name": "C1",
-					"exp_cases": 30000
-				},
-				{
-					"category_id": 2,
-					"category_name": "C2",
-					"exp_cases": 20000
-				},
-				{
-					"category_id": 3,
-					"category_name": "C3",
-					"exp_cases": 20000
-				},
-				{
-					"category_id": 4,
-					"category_name": "C4",
-					"exp_cases": 12960
-				},
-				{
-					"category_id": 5,
-					"category_name": "C5",
-					"exp_cases": 10000
-				}
-			]
-		},
-		"breaches_data": [{
-				"dc_id": 1,
-				"dc_name": "PAULS VALLEY OK GROC DC",
-				"region": "center",
-				"dc_type": "gds",
-				"breach_type": "Adjusted",
-				"lat_long": "38.8942861/-110.9361310",
-				"date": "12/04/2019",
-				"wm_week": 11901,
-				"breach_inboud": 2500,
-				"breach_outbound": 2300,
-				"breach_level": 2,
-				"breach_warnings": 4
-			},
-			{
-				"dc_id": 2,
-				"dc_name": "TERRELL TX GROC DC",
-				"region": "center",
-				"dc_type": "gds",
-				"breach_type": "Adjusted",
-				"lat_long": "37.8942861/-115.9389312",
-				"date": "12/04/2019",
-				"wm_week": 11901,
-				"breach_inboud": 2500,
-				"breach_outbound": 2300,
-				"breach_level": 1,
-				"breach_warnings": 2
-			},
-			{
-				"dc_id": 3,
-				"dc_name": "OLNEY, IL GROC DC",
-				"region": "center",
-				"dc_type": "gds",
-				"breach_type": "Adjusted",
-				"lat_long": "39.6543261/-112.9372412",
-				"date": "12/04/2019",
-				"wm_week": 11901,
-				"breach_inboud": 2500,
-				"breach_outbound": 2300,
-				"breach_level": 1,
-				"breach_warnings": 1
-			},
-			{
-				"dc_id": 4,
-				"dc_name": "CLEBURNE, TX GROC DC",
-				"region": "center",
-				"dc_type": "gds",
-				"breach_type": "Adjusted",
-				"lat_long": "38.6942861/-108.9421312",
-				"date": "12/04/2019",
-				"wm_week": 11901,
-				"breach_inboud": 2500,
-				"breach_outbound": 2300,
-				"breach_level": 2,
-				"breach_warnings": 3
-			},
-			{
-				"dc_id": 5,
-				"dc_name": "CLEBURNE, TX GROC DC",
-				"region": "center",
-				"dc_type": "gds",
-				"breach_type": "Adjusted",
-				"lat_long": "39.6942861/-114.9389312",
-				"date": "12/04/2019",
-				"wm_week": 11901,
-				"breach_inboud": 2500,
-				"breach_outbound": 2300,
-				"breach_level": 3,
-				"breach_warnings": 5
-			}
-		],
-		"breach_item_level": {
-			"dc_id": 1,
-			"dc_name": "TERRELL TX GROC DC",
-			"date": "19/04/2019",
-			"wm_week": 11901,
-			"chamber_id": 1,
-			"chamber_name": "DRY",
-			"category_id": 1,
-			"category_name": "C1",
-			"breach_type": "System",
-			"breaches_array": [{
-					"item_id": 1,
-					"item_name": "Banana",
-					"exp_cases": 250
-				},
-				{
-					"item_id": 2,
-					"item_name": "Milk",
-					"exp_cases": 650
-				},
-				{
-					"item_id": 3,
-					"item_name": "Snacks",
-					"exp_cases": 300
-				},
-				{
-					"item_id": 4,
-					"item_name": "Dry Fruits",
-					"exp_cases": 1000
-				},
-				{
-					"item_id": 5,
-					"item_name": "Dry Fruits",
-					"exp_cases": 550
-				},
-				{
-					"item_id": 6,
-					"item_name": "Item6",
-					"exp_cases": 2000
-				},
-				{
-					"item_id": 7,
-					"item_name": "Item7",
-					"exp_cases": 1400
-				},
-				{
-					"item_id": 8,
-					"item_name": "Item8",
-					"exp_cases": 1300
-				},
-				{
-					"item_id": 9,
-					"item_name": "Item9",
-					"exp_cases": 1500
-				},
-				{
-					"item_id": 10,
-					"item_name": "Item10",
-					"exp_cases": 3500
-				}
-			]
-		}
-	}
 }
